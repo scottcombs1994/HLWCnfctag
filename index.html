@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Opening the Hadley–Luzerne Wesleyan Church app…</title>
+  <meta name="robots" content="noindex" />
+  <style>body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;margin:2rem;line-height:1.4}</style>
+  <script>
+    (function () {
+      const ua = (navigator.userAgent || navigator.vendor || window.opera || "").toLowerCase();
+
+      // Your links (edit any time)
+      const IOS_STORE = "https://apps.apple.com/us/app/hadley-luzerne-wesleyan-church/id1564326568?ign-mpt=uo%3D4";
+      const ANDROID_STORE = "https://play.google.com/store/apps/details?id=com.subsplashconsulting.s_SG5DN6&referrer=utm_source%3Dsubsplash%26utm_content%3DeyJoYW5kbGVyIjoiYXBwIiwiYXBwa2V5IjoiU0c1RE42In0=";
+      const WEB_FALLBACK = "https://hlwc.org/";
+
+      function go(url){ window.location.replace(url); }
+
+      // Simple device routing
+      if (ua.includes("android")) {
+        go(ANDROID_STORE);
+      } else if (ua.includes("iphone") || ua.includes("ipad") || ua.includes("ipod")) {
+        go(IOS_STORE);
+      } else {
+        go(WEB_FALLBACK);
+      }
+    })();
+  </script>
+</head>
+<body>
+  <h1>Opening…</h1>
+  <p>If nothing happens, choose one:</p>
+  <ul>
+    <li><a href="https://apps.apple.com/us/app/hadley-luzerne-wesleyan-church/id1564326568?ign-mpt=uo%3D4">Open in App Store (iPhone/iPad)</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.subsplashconsulting.s_SG5DN6&referrer=utm_source%3Dsubsplash%26utm_content%3DeyJoYW5kbGVyIjoiYXBwIiwiYXBwa2V5IjoiU0c1RE42In0=">Open in Google Play (Android)</a></li>
+    <li><a href="https://hlwc.org/">Visit Website</a></li>
+  </ul>
+  <noscript>
+    JavaScript is required for automatic redirect. Please use the links above.
+  </noscript>
+</body>
+</html>
